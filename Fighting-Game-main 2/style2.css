@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.mainmenu{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("menubg.png");
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+}
+#qote{
+    padding: 1vh;
+    height: 7vh;
+    width: 50vw;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    left: 4vh;
+    top: 85vh;
+    color: white;
+    font-size: smaller;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(147, 55, 55);
+}
+.mainmenu{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("menubg.png");
+    background-color: black;
+    background-size: cover;
+    position: absolute;
+}
+
+#playButton {
+    text-decoration: none;
+    background-color: rgb(147, 55, 55);
+    border: none;
+    color: white;
+    padding: 30px 290px;
+    display: inline-block;
+    font-size: xx-large;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    top: 20vh;
+    left: 105vh;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 01.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+#playButton:hover, #playbutton:focus, #playbutton:active{
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+#Options{
+    background-color: rgb(147, 55, 55);
+    border: none;
+    color: white;
+    padding: 30px 287px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: xx-large;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 40vh;
+    left: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 01.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+
+#Options:hover{
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: underline;
+}
